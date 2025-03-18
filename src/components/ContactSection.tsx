@@ -87,7 +87,7 @@ export default function ContactSection() {
                   <label className="text-sm text-gray-400 mb-2 block">Your Name</label>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-primary/20 focus:border-primary/50 transition-colors outline-none text-white"
+                    className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-[#1d4ed8] focus:border-primary/50 transition-colors outline-none text-white"
                     placeholder="John Doe"
                   />
                 </div>
@@ -95,7 +95,7 @@ export default function ContactSection() {
                   <label className="text-sm text-gray-400 mb-2 block">Email Address</label>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-primary/20 focus:border-primary/50 transition-colors outline-none text-white"
+                    className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-[#1d4ed8] focus:border-primary/50 transition-colors outline-none text-white"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -103,7 +103,7 @@ export default function ContactSection() {
                   <label className="text-sm text-gray-400 mb-2 block">Message</label>
                   <textarea
                     rows={4}
-                    className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-primary/20 focus:border-primary/50 transition-colors outline-none text-white"
+                    className="w-full px-4 py-3 rounded-lg bg-secondary/50 border border-[#1d4ed8] focus:border-primary/50 transition-colors outline-none text-white"
                     placeholder="Tell us about your security needs..."
                   ></textarea>
                 </div>

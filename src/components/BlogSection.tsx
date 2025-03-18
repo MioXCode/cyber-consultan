@@ -41,7 +41,7 @@ export default function BlogSection() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
-              className="bg-card rounded-xl overflow-hidden hover:glow-effect transition-all duration-300"
+              className="bg-card rounded-xl overflow-hidden hover:glow-effect transition-all duration-300 cyber-card"
             >
               <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
               <div className="p-6">
